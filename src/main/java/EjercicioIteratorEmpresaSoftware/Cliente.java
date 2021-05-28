@@ -35,19 +35,19 @@ public class Cliente {
 
         Iterator iterator = lista.iterator();
         while (iterator.hasNext()){
-            System.out.println("Nombre: "+iterator.next());
+            System.out.println("Nombre empresa 1: "+iterator.next());
         } 
         iterator = array.iterator();
         while (iterator.hasNext()){
-            System.out.println("Nombre: "+iterator.next());
+            System.out.println("Nombre empresa 2: "+iterator.next());
         } 
         iterator = vector.iterator();
         while (iterator.hasNext()){
-            System.out.println("Nombre: "+iterator.next());
+            System.out.println("Nombre empresa 3: "+iterator.next());
         } 
         iterator = stack.iterator();
         while (iterator.hasNext()){
-            System.out.println("Nombre: "+iterator.next());
+            System.out.println("Nombre empresa 4: "+iterator.next());
         } 
 	}
 
