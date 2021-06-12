@@ -8,10 +8,11 @@ public class TiendaDeRopa {
 
 	private List<Producto> lista = new LinkedList<Producto>();
 
+
 	public void agregarProducto(Producto p) {
 		lista.add(p);
 	}
-	
+
 	public IEstrategia getEstrategia() {
 		return estrategia;
 	}
